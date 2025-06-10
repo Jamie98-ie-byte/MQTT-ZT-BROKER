@@ -13,18 +13,3 @@ A lightweight, secure, and extensible MQTT broker designed to implement Zero Tru
 🔍 Real-time request evaluation and decision-making
 
 🔒 Zero Trust Architecture (ZTA) principles applied
-
-🏗️ Architecture Overview
-+----------+       +--------+       +--------+       +--------+
-|  Broker  |   +   |  PEP   | <---> |  PDP   | <---> | Policy |
-+----------+       +--------+       +--------+       +--------+
-     |                  |                |                |
-     |              Intercepts      checks policies   ALFA engine 
-     |              MQTT traffic    and sends its     where the policies and 
-     |              sends requests  decision to PEP   attributes are created and 
-     |              for decisions   for enforcement   stored.
-     |              and enforces    after checking 
-     |              it through      the policies.
-     |              broker. 
-     V
-  [Moquette Broker]

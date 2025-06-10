@@ -13,3 +13,5 @@ A lightweight, secure, and extensible MQTT broker designed to implement Zero Tru
 🔍 Real-time request evaluation and decision-making
 
 🔒 Zero Trust Architecture (ZTA) principles applied
+
+This is a fork for research purposes.
